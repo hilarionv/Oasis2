@@ -473,6 +473,15 @@ body {
     border: 1px solid burlywood;
 }
 
+.serv-num {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 64px;
+    font-weight: 300;
+   color: #7dc97d;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
 .contact-form button {
     padding: 12px;
     background: green;
@@ -580,6 +589,14 @@ footer {
 border-color: #7dc97d;
 color: #7dc97d;
 }
+
+.vision h4{
+  color: green;
+        }
+    
+        .valeurs h4{
+          color: green; 
+        }
 
 
 
@@ -703,9 +720,10 @@ padding-left: 40px;
         display: flex;
         flex-direction: column;
     }
+    .footer-grid { grid-template-columns: 1fr; }
 
 }
-.footer-grid { grid-template-columns: 1fr; }
+
 
 
 
