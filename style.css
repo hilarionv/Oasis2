@@ -309,6 +309,12 @@ body {
     justify-content: end;
 }
 
+.col-right1 p,
+.leftt1 p {
+    font-size: 15px;
+}
+
+
 /* ---- ACCOMPLISSEMENTS ---- */
 
 .projets {
@@ -800,6 +806,12 @@ padding-left: 40px;
     .contact-form {
         width: 100%;
     }
+
+
+.col-right1 p,
+.leftt1 p {
+    font-size: 13px;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -862,6 +874,11 @@ padding-left: 40px;
     .top-about1 {
         display: flex;
      }
+
+     .col-right1 p,
+.leftt1 p {
+    font-size: 13px;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -873,6 +890,11 @@ padding-left: 40px;
        
         background-color: black;
     }
+
+    .col-right1 p,
+.leftt1 p {
+    font-size: 13px;
+}
 
     .p3 {
         margin-top: 30px;
