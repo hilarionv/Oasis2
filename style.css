@@ -752,7 +752,7 @@ padding-left: 40px;
     }
 
     .titre h1 {
-        font-size: 36px;
+        font-size: 33px;
     }
 
     .titre1 h1 {
@@ -908,6 +908,16 @@ padding-left: 40px;
         margin-top: 13px;
         margin-bottom: 30px;
         line-height: 50px;
+    }
+
+    .titre1 h1 {
+        font-size: 30px;
+      
+    }
+
+    .titre h1 {
+        font-size: 30px;
+      
     }
 }
 
