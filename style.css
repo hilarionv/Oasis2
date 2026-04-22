@@ -682,7 +682,11 @@ padding-left: 40px;
     footer { padding: 50px 24px; }
 .footer-grid { grid-template-columns: 1fr 1fr; gap: 40px; }
 
+.serv {
+  
+    background-color: white;
 
+}
 
 }
 
@@ -721,6 +725,12 @@ padding-left: 40px;
         flex-direction: column;
     }
     .footer-grid { grid-template-columns: 1fr; }
+
+    .serv {
+  
+        background-color: white;
+    
+    }
 
 }
 
