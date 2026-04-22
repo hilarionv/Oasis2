@@ -754,6 +754,11 @@ padding-left: 40px;
         font-size: 36px;
     }
 
+    .titre1 h1 {
+        font-size: 36px;
+      
+    }
+
     .top-about {
         flex-direction: row;
         justify-content: space-around;
