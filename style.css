@@ -562,6 +562,12 @@ footer {
     transition: color 0.3s;
 }
 
+.serv img {
+    border-radius: 100%;
+    height: 90px;
+    width: 90px;
+}
+
 .footer-col a:hover { color: #7dc97d; }
 
 .footer-bottom {
@@ -930,6 +936,12 @@ padding-left: 40px;
 .leftt1 p {
     font-size: 13px;
 }
+
+.serv img {
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -991,6 +1003,12 @@ padding-left: 40px;
     .titre h1 {
         font-size: 30px;
       
+    }
+
+    .serv img {
+        border-radius: 100%;
+        height: 80px;
+        width: 80px;
     }
 }
 
