@@ -126,6 +126,9 @@ body {
     display: flex;
     padding: 40px;
     flex-direction: column;
+    position: relative;  /* ← ajout */
+    z-index: 2; 
+    color: white;
 }
 
 .navbar ul li a {
@@ -188,18 +191,40 @@ body {
 }
 
 .top1 {
-    height: 680px;
+    height: 730px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     background-color: #DFF5E1;
     color: black;
-    background-image: url(images/Photoroom_20260421_203928.PNG);
+    background-image: url(images/Photoroom_20260423_142145.PNG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Montserrat", sans-serif;
+    position: relative; 
+    z-index: 2;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 730px;
+
+width: 100%;
+    background-color: rgba(0,0,0,0.5); /* noir semi-transparent */
+
+    z-index: 1; /* derrière le texte */
+}
+
+
+/* Overlay */
+.top1 .overlay {
+  position: absolute;
+  inset: 0; /* top:0; left:0; right:0; bottom:0 */
+  background-color: rgba(0,0,0,0.7);
+
+  z-index: 1; /* derrière le texte */
 }
 
 .first {
