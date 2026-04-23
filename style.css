@@ -563,9 +563,9 @@ footer {
 }
 
 .serv img {
-    border-radius: 100%;
-    height: 90px;
-    width: 90px;
+ 
+    height: 250px;
+    width: 100%;
 }
 
 .footer-col a:hover { color: #7dc97d; }
@@ -938,9 +938,9 @@ padding-left: 40px;
 }
 
 .serv img {
-    border-radius: 100%;
-    height: 70px;
-    width: 70px;
+   
+    height: 250px;
+    width: 100%;
 }
 }
 
@@ -1011,7 +1011,7 @@ padding-left: 40px;
     }
 
     .serv h3 {
-        font-size: 22px;
+        font-size: 20px;
       
 
         
@@ -1023,9 +1023,9 @@ padding-left: 40px;
     }
 
     .serv img {
-        border-radius: 100%;
-        height: 70px;
-        width: 70px;
+   
+        height: 240px;
+        width: 100%;
     }
 }
 
