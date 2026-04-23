@@ -77,13 +77,13 @@ body {
 }
 
 .p1 {
-    font-size: 14px;
+    font-size: 17px;
     color: green;
     margin-bottom: 2px;
 }
 
 .p2 {
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 500;
     margin-top: 13px;
     margin-bottom: 30px;
@@ -101,9 +101,9 @@ body {
 .button2 {
     padding: 9px;
     background-color: transparent;
-    color: green;
+    color: white;
     border-radius: 5px;
-    border: 1px solid green;
+    border: 1px solid white;
     text-decoration: none;
 }
 
@@ -117,18 +117,19 @@ body {
 
 .p3 {
     margin-top: 35px;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
     margin-bottom: 4px;
 }
 
 .pp {
     display: flex;
-    padding: 40px;
+  
     flex-direction: column;
     position: relative;  /* ← ajout */
     z-index: 2; 
     color: white;
+   
 }
 
 .navbar ul li a {
@@ -205,7 +206,10 @@ body {
     font-family: "Montserrat", sans-serif;
     position: relative; 
     z-index: 2;
+    display: flex;
 }
+
+
 
 .overlay {
     position: absolute;
