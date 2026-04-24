@@ -792,6 +792,15 @@ padding-left: 40px;
         display: contents;
     }
 
+    .col-right1 img {
+        width: 100%;
+      height: 300px;
+        object-fit: cover;
+        object-position: top center;
+        border-radius: 4px;
+        display: block;
+      }
+
  
 
  
@@ -819,6 +828,20 @@ padding-left: 40px;
         padding: 16px;
     }
 
+    .serv p {
+        color: grey;
+        font-size: 11px;
+      }
+
+      .col-right1 img {
+        width: 100%;
+      height: 300px;
+        object-fit: cover;
+        object-position: top center;
+        border-radius: 4px;
+        display: block;
+      }
+
 
 }
 
@@ -833,11 +856,11 @@ padding-left: 40px;
     }
 
     .titre h1 {
-        font-size: 33px;
+        font-size: 38px;
     }
 
     .titre1 h1 {
-        font-size: 33px;
+        font-size: 38px;
       
     }
 
@@ -1014,12 +1037,12 @@ padding-left: 40px;
     }
 
     .titre1 h1 {
-        font-size: 30px;
+        font-size: 38px;
       
     }
 
     .titre h1 {
-        font-size: 30px;
+        font-size: 38px;
       
     }
 
