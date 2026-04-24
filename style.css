@@ -240,9 +240,7 @@ width: 100%;
     text-align: start;
 }
 
-.titre1 {
-    text-align: start;
-}
+
 
 .green {
     color: green;
@@ -260,12 +258,7 @@ width: 100%;
     align-items: start;
 }
 
-.about-grid1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    align-items: start;
-}
+
 
 .col-left {
     display: flex;
@@ -284,11 +277,7 @@ width: 100%;
     gap: 30px;
 }
 
-.col-right1 {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
+
 
 .titre h1 {
     font-size: 58px;
@@ -325,14 +314,7 @@ width: 100%;
    
 }
 
-.leftt1 a {
-    background-color: darkgreen;
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    margin-top: 30px;
-    border-radius: 10px;
-}
+
 
 .input-row {
     display: flex;
@@ -343,11 +325,7 @@ width: 100%;
     flex: 1;
 }
 
-.col-right1 img {
-    height: 400px;
-    width: 80%;
-    border-radius: 10px;
-}
+
 
 
 .serv:hover h3{
@@ -464,11 +442,6 @@ width: 100%;
     text-align: justify;
 }
 
-
-.leftt1 {
-    max-width: 80%;
-    text-align: justify;
-}
 
 .propos1 {
     max-width: 100%;
@@ -690,34 +663,13 @@ color: #7dc97d;
 
 
 @media screen and (max-width: 768px) {
-    .col-left1 {
-        display: contents;
-    }
 
-    .col-right1 {
-        display: contents;
-    }
 
-    .titre1 {
-        order: 1;
-    
-    }
+ 
 
-    .propos11 {
-        order: 2;
-    }
 
-    .leftt1 {
-        order: 3;
-      max-width: 100%;
-    }
 
-    .top-about1 {
-        order: 4;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
+
 
     .top-about1 .abt {
         border-bottom: none;
@@ -755,23 +707,13 @@ padding-left: 40px;
         display: contents;
     }
 
-    .titre1 {
-        order: 1;
-    }
+  
 
-    .propos11 {
-        order: 2;
-    }
+  
 
-    .leftt1 {
-        order: 3;
-        max-width: 100%;
-    }
+  
 
-    .top-about1 {
-        order: 4;
-        display: flex;
-    }
+
 
     .about-grid1 {
         display: flex;
@@ -791,12 +733,7 @@ padding-left: 40px;
 
 
 
-.top-about1 {
-    order: 4;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+
 
 .top-about1 .abt {
     border-bottom: none;
@@ -822,23 +759,12 @@ padding-left: 40px;
         display: contents;
     }
 
-    .titre1 {
-        order: 1;
-    }
+ 
 
-    .propos11 {
-        order: 2;
-    }
+ 
 
-    .leftt1 {
-        order: 3;
-        max-width: 100%;
-    }
 
-    .top-about1 {
-        order: 4;
-        display: flex;
-    }
+
 
     .about-grid1 {
         display: flex;
@@ -852,12 +778,7 @@ padding-left: 40px;
     
     }
 
-    .top-about1 {
-        order: 4;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
+
 
     .top-about1 .abt {
         border-bottom: none;
